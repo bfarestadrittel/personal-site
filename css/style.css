@@ -29,3 +29,22 @@
   width: 150px;
 }
 
+.hero {
+  background-image: url("city.jpg");
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  width: 100vw;
+}
+
+.full-name {
+  color: #022D41;
+  font-size: 48px;
+  margin: 0px;
+}
+
+.skill-list {
+  color: #022D41;
+  font-size: 24px;
+}
+
