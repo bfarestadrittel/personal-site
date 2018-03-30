@@ -112,25 +112,18 @@
 }
 
 .project-1 {
-  /*background-image: url("tent-view.jpg");
-  background-size: 75%;
-  background-repeat: no-repeat;*/
   grid-column: col-start 2 / span 5;
   grid-row-end: span 2;
-  /*height: 400px;*/
-  /*width: 650px;*/
 }
 
 .project-2 {
   grid-column: col-start 7 / span 5;
   grid-row-end: span 1;
-  /*height: 200px;*/
 }
 
 .project-3 {
   grid-column: col-start 7 / span 5;
   grid-row-end: span 1;
-  /*height: 200px;*/
 }
 
 .background-image {
@@ -139,6 +132,13 @@
   height: 100%;
   object-fit: cover;
 }
+
+.process {
+  grid-column: col-start 2 / span 10;
+  grid-row-end: span 3;
+  margin: auto;
+}
+
 
 
 
