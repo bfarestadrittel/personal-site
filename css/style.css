@@ -11,6 +11,19 @@
   padding-top: 20px;
 }
 
+.link-style {
+  color: #DAECF3;
+  text-decoration: none;
+}
+
+.link-style:hover {
+  color: #FE424D;
+}
+
+.link-style:active {
+  color: #FE424D;
+}
+
 .header-bar {
   align-items: center;
   background-color: #022D41;
@@ -45,6 +58,7 @@
   border: none;
   grid-column: col-start 11 / span 1;
   height: 45px;
+  margin: auto;
   text-align: center;
   width: 150px;
 }
@@ -88,7 +102,7 @@
 }
 
 .wrapper-grid > * {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .design-box {
@@ -129,6 +143,7 @@
   font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  padding: 0 20px 0 20px;
 }
 
 .project-1 {
@@ -268,6 +283,15 @@
 .contact-title {
   margin-bottom: 0;
   margin-top: 50px;
+}
+
+.email-link {
+  color: #022D41;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: #FE424D;
 }
 
 
