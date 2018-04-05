@@ -294,11 +294,80 @@
   color: #FE424D;
 }
 
+/*Case Study Styles*/
 
+#campout .hero {
+  background-image: url("campout-cover-overlay.jpg");
+  background-size: cover;
+  display: grid;
+  height: 700px;
+  align-items: center;
+  width: 100vw;
+  margin-bottom: 50px;
+}
 
+#campout .full-name, .skill-list {
+  color: #fff;
+}
 
+#campout .section-title {
+  color: #022D41;
+  font-size: 24px;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: left;
+}
 
+#campout .study-section {
+  grid-column: col-start 2 / span 10;
+  grid-row-end: span 3;
+  text-align: justify;
+}
 
+#campout .study-copy, .problems {
+  color: #022D41;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+  line-height: 1.5;
+}
+
+#campout .problem {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+#campout .solution-section {
+  grid-column: col-start 3 / span 4;
+  grid-row-end: span 3;
+  text-align: justify;
+}
+
+#campout .study-assets {
+  border: 1px solid black;
+  grid-column: col-start 8 / span 4;
+  grid-row-end: span 3;
+}
+
+#campout .solution-title {
+  color: #022D41;
+  font-size: 22px;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  margin-top: 0;
+}
+
+#campout .solution-copy {
+  color: #022D41;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+  line-height: 1.5;
+}
 
 
 
