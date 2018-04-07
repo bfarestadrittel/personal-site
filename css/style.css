@@ -7,8 +7,8 @@
 .fas {
   color: #022D41;
   font-family: FontAwesome;
-  font-size: 42px;
-  padding-top: 20px;
+  font-size: 40px;
+  padding-bottom: 10px;
 }
 
 .link-style {
@@ -41,8 +41,10 @@
   padding: 0;
 }
 
-.logo {
+.logo, .home-link {
+  align-items: center;
   grid-column: col-start 2 / span 1;
+  margin-top: 3px;
 }
 
 .nav-links {
@@ -53,7 +55,8 @@
   padding-right: 30px;
 }
 
-.contact-button {
+.contact-button, .contact-link {
+  align-items: center;
   background-color: #1AA6B7;
   border: none;
   grid-column: col-start 11 / span 1;
@@ -63,8 +66,19 @@
   width: 150px;
 }
 
+.contact-link {
+  color: #DAECF3;
+  text-decoration: none;
+}
+
+.contact-text {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0px;
+}
+
 .hero {
-  background-image: url("city.jpg");
+  background-image: url("city-overlay.jpg");
   background-size: cover;
   display: grid;
   height: 700px;
@@ -73,7 +87,7 @@
 }
 
 .full-name {
-  color: #022D41;
+  color: #fff;
   font-size: 48px;
   margin: 0px;
 }
@@ -106,15 +120,21 @@
 }
 
 .design-box {
+  background-color: #DAECF3;
+  border: 1px solid #FE424D;
   margin-top: 50px;
   grid-column: col-start 2 / span 5;
   text-align: center;
+  padding-top: 20px;
 }
 
 .content-box {
   margin-top: 50px;
   grid-column: col-start 7 / span 5;
   text-align: center;
+  background-color: #DAECF3;
+  border: 1px solid #FE424D;
+  padding-top: 20px;
 }
 
 .development-box {
@@ -122,6 +142,9 @@
   grid-row: 2;
   margin-bottom: 50px;
   text-align: center;
+  background-color: #DAECF3;
+  border: 1px solid #FE424D;
+  padding-top: 20px;
 }
 
 .life-box {
@@ -129,6 +152,9 @@
   grid-row: 2;
   margin-bottom: 50px;
   text-align: center;
+  background-color: #DAECF3;
+  border: 1px solid #FE424D;
+  padding-top: 20px;
 }
 
 .box-title {
@@ -176,26 +202,38 @@
 
 .testimonial-1 {
   background-color: #DAECF3;
+  border: 1px solid #FE424D;
   grid-column: col-start 2 / span 4;
   grid-row-end: span 1;
 }
 
 .testimonial-2 {
   background-color: #DAECF3;
+  border: 1px solid #FE424D;
   grid-column: col-start 6 / span 3;
   grid-row-end: span 2;
 }
 
 .testimonial-3 {
   background-color: #DAECF3;
+  border: 1px solid #FE424D;
   grid-column: col-start 9 / span 3;
   grid-row-end: span 2;
 }
 
 .testimonial-4 {
   background-color: #DAECF3;
+  border: 1px solid #FE424D;
   grid-column: col-start 2 / span 4;
   grid-row-end: span 1;
+}
+
+.quote-name {
+  color: #022D41;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 20px 0 20px;
 }
 
 .contact-form {
@@ -252,6 +290,11 @@
 
 .social-link {
   display: inline-block;
+  padding-right: 30px;
+}
+
+.fab {
+  font-size: 32px;
 }
 
 .name-email {
