@@ -356,7 +356,6 @@
 
 .email-link {
   color: #022D41;
-  text-decoration: none;
 }
 
 .email-link:hover {
@@ -411,22 +410,29 @@
 }
 
 #campout .solution-section {
-  grid-column: col-start 3 / span 4;
-  grid-row-end: span 3;
-  text-align: justify;
+  /*display: grid;*/
+  grid-column: col-start 3 / span 8;
+  grid-row-end: span 2;
+  /*text-align: center;*/
+  align-content: center;
 }
 
-#campout .study-assets {
+#user-flow {
+  margin: 0 auto 0 auto;
+}
+
+/*#campout .study-assets {
   border: 1px solid black;
   grid-column: col-start 8 / span 4;
   grid-row-end: span 3;
-}
+  margin-top: 2px;
+}*/
 
 #campout .solution-title {
   color: #022D41;
   font-size: 22px;
   font-family: Futura, Helvetica, Arial, sans-serif;
-  margin-top: 0;
+  margin: 0;
 }
 
 #campout .solution-copy {
@@ -437,6 +443,46 @@
   letter-spacing: 0.25px;
   line-height: 1.5;
 }
+
+#user-flow {
+  border: 1px solid #022D41;
+}
+
+#try-campout {
+  margin-bottom: 20px;
+}
+
+#last-section {
+  margin-bottom: 100px;
+}
+
+
+/*#user-stories {
+  display: grid;
+  text-align: center;
+  align-content: center;
+}
+
+#user-stories p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#user-stories a {
+  color: #022D41;
+  text-decoration: none;
+}
+
+#user-stories a:hover {
+  color: #FE424D;
+}
+
+#user-flows {
+  background-image: url("user-flow-example.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
 
 
 
