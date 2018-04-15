@@ -6,7 +6,6 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="images/favicon.ico">
 </head>
@@ -56,13 +55,40 @@
     </div>
     <h2 class="work-title"><a name="featured-work">Featured Work</a></h2>
     <div class="project-1">
-      <!-- <img class="background-image" src="images/tent-view-2.jpg"> -->
+      <div class="content">
+        <a href="campout.html">
+          <div class="content-overlay"></div>
+      <img class="content-image" src="images/tent-view-2.jpg">
+      <div class="content-details fadeIn-bottom">
+        <h3 class="content-title">CampOut</h3>
+        <p class="content-text">An iOS App for Finding Your Perfect Camping Spot</p>
+      </div>
+    </a>
     </div>
+  </div>
     <div class="project-2">
-      <img class="background-image" src="css/beer-pour.jpg">
+      <div class="content">
+        <a href="rare-brew.html">
+          <div class="content-overlay"></div>
+      <img class="content-image" src="css/beer-pour.jpg">
+      <div class="content-details fadeIn-bottom">
+        <h3 class="content-title">Rare Brew</h3>
+        <p class="content-text">Connecting beer lovers with hard-to-find and limited beers.</p>
     </div>
+  </a>
+</div>
+</div>
     <div class="project-3">
-      <img class="background-image" src="images/blocbox-ipad.jpg">
+      <div class="content">
+        <a href="blocbox.html">
+          <div class="content-overlay"></div>
+      <img class="content-image" src="images/blocbox-ipad.jpg">
+      <div class="content-details fadeIn-bottom">
+        <h3 class="content-title">Blocbox</h3>
+        <p class="content-text">Helping creative people save, share and collaborate.</p>
+      </div>
+    </a>
+  </div>
     </div>
     <h2 class="work-title process-title"><a name="my-process">My Process</a></h2>
     <div class="process">
@@ -87,18 +113,13 @@
     </div>
     <h2 class="work-title contact-title"><a name="contact">Contact</a></h2>
     <div class="contact-form">
-      <form action="form-to-email.php" method="post" name="myemailform">
+      <form action="https://getsimpleform.com/messages?form_api_token=e0d5d3f7998ea7449b6c6a91cf94d590" method="post" name="myemailform">
+        <input type='hidden' name='redirect_to' value="http://brandonfr.com">
         <input type="text" class="text-input" name="name" placeholder="Name"><br>
         <input type="text" class="text-input" name="email" placeholder="Email Address"><br>
         <textarea class="message" name="message" placeholder="Message..."></textarea>
         <input type="submit" class="submit-button" name="submit" value="Submit">
       </form>
-      <script language="JavaScript">
-      var frmvalidator  = new Validator("myemailform");
-      frmvalidator.addValidation("name","req","Please provide your name"); 
-      frmvalidator.addValidation("email","req","Please provide your email"); 
-      frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-      </script>
     </div>
     <div class="contact-links">
       <p class="name-email">Brandon Farestad-Rittel<br>
