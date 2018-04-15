@@ -174,12 +174,8 @@
 }
 
 .project-1 {
-  background-image: url("tent-view-2.jpg");
   grid-column: col-start 2 / span 5;
   grid-row-end: span 2;
-  position: relative;
-  background-size: cover;
-  text-align: center;
 }
 
 .project-2 {
@@ -192,33 +188,12 @@
   grid-row-end: span 1;
 }
 
-.background-image {
+/*.background-image {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.project-1:after {
-    content: url("http://www.google.com");
-    color:#fff;
-    position: absolute;
-    width:100%; 
-    height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.6);
-    opacity:0;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-}
-
-.project-1:hover:after {
-    opacity:1;
-    background-image: url("tent-view-2-overlay.jpg");
-    /*position: relative;*/
-    background-size: cover;
-    text-align: center;
-}
+}*/
 
 .process {
   grid-column: col-start 2 / span 10;
@@ -456,33 +431,79 @@
   margin-bottom: 100px;
 }
 
+.content {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
 
-/*#user-stories {
-  display: grid;
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
   text-align: center;
-  align-content: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 
-#user-stories p {
-  font-family: Futura, Helvetica, Arial, sans-serif;
-  font-size: 28px;
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3 {
+  color: #fff;
   font-weight: 700;
+  /*letter-spacing: 0.15em;*/
+  margin-bottom: 0.5em;
+  /*text-transform: uppercase;*/
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 24px;
 }
 
-#user-stories a {
-  color: #022D41;
-  text-decoration: none;
+.content-details p {
+  color: #fff;
+  font-size: 18px;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.25px;
 }
 
-#user-stories a:hover {
-  color: #FE424D;
+.fadeIn-bottom {
+  top: 80%;
 }
-
-#user-flows {
-  background-image: url("user-flow-example.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
 
 
 
