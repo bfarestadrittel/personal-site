@@ -79,12 +79,12 @@
 }
 
 .hero {
-  background-image: url("city-overlay.jpg");
+  background-image: url("test-bg-2.jpg");
   background-size: cover;
   display: grid;
   height: 700px;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .full-name {
